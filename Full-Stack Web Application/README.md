@@ -12,17 +12,17 @@ The Care Connect Healthcare website aims to reach people of all ages who need ac
 
 #### Pages
 
-###### Home
+##### Home
 An inviting introduction to Care Connect Healthcare, highlighting mission, quick links to core services, and featured testimonials or tips for healthy living.
 
-###### About Us
+##### About Us
 History, vision, and values of Care Connect Healthcare. Staff profiles, credentials, and the story of how Care Connect is making a difference, bridging gaps and empowering health.
 
-###### Services 
+##### Services 
 Comprehensive overview of nursing and healthcare offerings: home visits, virtual care consultations, wellness programs, and care management support. Clear descriptions make choosing services easy.
  
-###### Resources
+##### Resources
 Health education, FAQs, downloadable guides, and trusted external links. Updated content helps users become active, informed participants in their own well-being.
 
-###### Contact and Booking
+##### Contact and Booking
 Secure forms for scheduling nursing appointments or requesting information. Offers multiple contact options (phone, email, chat) and location map for those seeking in-person care.
