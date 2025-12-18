@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Booking - Care Connect Health Care Without Borders</title>
+  <link rel="stylesheet" href="./styles/site.css">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico.png">
+</head>
+<body>
+  <header class="site-banner">
+  <div class="banner-content">
+    <img src="./images/logo.png" alt="Care Connect Logo" class="logo">
+    <div class="header-titles">
+    <h2>Care Connect</h2>
+    <h3>Care Without Borders</h3>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact & Booking</a></li>
+      </ul>
+    </nav>
+    <p class="header-domain">
+      <a href="index.html">careconnecthealthcare.ca</a>
+    </p>
+  </div>
+</header>
+  <main>
+    <section class="hero">
+      <h1>Contact & Booking</h1>
+      <p>Secure forms for scheduling nursing appointments or requesting information. Offers multiple contact options (phone, email, chat) and location map for those seeking in-person care.</p>
+    </section>
+
+    <section class="contact-intro">
+      <h2>Get in Touch With Care Connect</h2>
+      <p>We're here to help you access the healthcare services you need. Whether you'd like to schedule an appointment, ask questions about our services, or learn more about Care Connect Health, we offer multiple convenient ways to connect with our team.</p>
+    </section>
+
+    <section class="contact-methods">
+      <h2>Multiple Ways to Connect With Us</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">📞</div>
+          <h3>Phone</h3>
+          <p>Call us to speak directly with our scheduling team or healthcare professionals.</p>
+          <p class="contact-detail"><strong>Main Line:</strong> (555) 123-4567</p>
+          <p class="contact-detail"><strong>Hours:</strong> Monday - Friday, 8:00 AM - 6:00 PM</p>
+          <p class="contact-detail"><strong>Saturday:</strong> 9:00 AM - 2:00 PM</p>
+          <p class="contact-detail"><strong>Emergency Line:</strong> (555) 123-4999</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h3>Email</h3>
+          <p>Send us an email with your inquiry and we'll respond within 24 hours.</p>
+          <p class="contact-detail"><strong>General Inquiries:</strong><br>info@careconnect.health</p>
+          <p class="contact-detail"><strong>Appointments:</strong><br>appointments@careconnect.health</p>
+          <p class="contact-detail"><strong>Customer Support:</strong><br>support@careconnect.health</p>
+        </div>
+
+        
+        <div class="contact-card">
+          <div class="contact-icon">📍</div>
+          <h3>Visit Us In Person</h3>
+          <p>Visit one of our care centers for consultations or administrative services.</p>
+          <p class="contact-detail"><strong>Main Office:</strong><br>123 Healthcare Avenue<br>City, State 12345</p>
+          <p class="contact-detail"><strong>Hours:</strong> Monday - Friday, 8:00 AM - 6:00 PM</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking-section">
+      <h2>Schedule Your Appointment</h2>
+      <p>Ready to book a nursing visit or consultation? Fill out the form below and our scheduling team will confirm your appointment within 24 hours.</p>
+      
+      <form class="booking-form" id="appointmentForm">
+        <fieldset>
+          <legend>Personal Information</legend>
+          
+          <div class="form-group">
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="firstName" required>
+          </div>
+
+          <div class="form-group">
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+
+          <div class="form-group">
+            <label for="dateOfBirth">Date of Birth</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Appointment Details</legend>
+
+          <div class="form-group">
+            <label for="serviceType">Service Type *</label>
+            <select id="serviceType" name="serviceType" required>
+              <option value="">-- Select a Service --</option>
+              <option value="home-visit">Home Visit & In-Home Nursing</option>
+              <option value="virtual-consultation">Virtual Care Consultation</option>
+              <option value="wellness-program">Wellness Program</option>
+              <option value="care-management">Care Management Support</option>
+              <option value="specialized-nursing">Specialized Nursing Care</option>
+              <option value="health-information">Health Information & Support</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="preferredDate">Preferred Date *</label>
+            <input type="date" id="preferredDate" name="preferredDate" required>
+          </div>
+
+          <div class="form-group">
+            <label for="preferredTime">Preferred Time *</label>
+            <select id="preferredTime" name="preferredTime" required>
+              <option value="">-- Select a Time --</option>
+              <option value="morning">Morning (8:00 AM - 12:00 PM)</option>
+              <option value="afternoon">Afternoon (12:00 PM - 4:00 PM)</option>
+              <option value="evening">Evening (4:00 PM - 6:00 PM)</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="visitType">Visit Type *</label>
+            <select id="visitType" name="visitType" required>
+              <option value="">-- Select a Type --</option>
+              <option value="in-home">In-Home Visit</option>
+              <option value="virtual">Virtual Consultation</option>
+              <option value="clinic">Clinic Visit</option>
+              <option value="flexible">Flexible</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Information</legend>
+
+          <div class="form-group">
+            <label for="healthConcerns">Health Concerns or Reason for Visit *</label>
+            <textarea id="healthConcerns" name="healthConcerns" rows="4" required placeholder="Please describe your health needs or reason for scheduling this appointment..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="medicalHistory">Current Medications or Medical Conditions</label>
+            <textarea id="medicalHistory" name="medicalHistory" rows="3" placeholder="Let us know about any medications you're taking or existing conditions..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="insurance">Insurance Provider (if applicable)</label>
+            <input type="text" id="insurance" name="insurance" placeholder="Insurance company name">
+          </div>
+
+          <div class="form-group checkbox-group">
+            <label for="provider-preference">
+              <input type="checkbox" id="provider-preference" name="providerPreference">
+              I have a preference for a specific healthcare provider
+            </label>
+          </div>
+
+          <div class="form-group" id="providerPreferenceField" style="display:none;">
+            <label for="providerName">Provider Name Preference</label>
+            <input type="text" id="providerName" name="providerName" placeholder="Enter preferred provider name">
+          </div>
+
+          <div class="form-group checkbox-group">
+            <label for="accessibility-needs">
+              <input type="checkbox" id="accessibility-needs" name="accessibilityNeeds">
+              I have accessibility needs or accommodations to discuss
+            </label>
+          </div>
+
+          <div class="form-group" id="accessibilityField" style="display:none;">
+            <label for="accessibilityDetails">Accessibility Details</label>
+            <textarea id="accessibilityDetails" name="accessibilityDetails" rows="2" placeholder="Please describe your accessibility needs..."></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Consent & Privacy</legend>
+
+          <div class="form-group checkbox-group">
+            <label for="terms">
+              <input type="checkbox" id="terms" name="terms" required>
+              I agree to the Terms of Service and Privacy Policy
+            </label>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <label for="communication">
+              <input type="checkbox" id="communication" name="communication">
+              I consent to receive appointment reminders and health information via phone, email, or text
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit" class="cta-btn">Schedule Appointment</button>
+          <button type="reset" class="btn-secondary">Clear Form</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="information-request-section" id="requestInformation">
+      <h2>Request Information</h2>
+      <p>Interested in learning more about our services? Fill out the form below and we'll send you detailed information.</p>
+
+      <form class="information-form" id="informationForm">
+        <fieldset>
+          <legend>Your Contact Information</legend>
+
+          <div class="form-group">
+            <label for="infoFirstName">First Name *</label>
+            <input type="text" id="infoFirstName" name="firstName" required>
+          </div>
+
+          <div class="form-group">
+            <label for="infoLastName">Last Name *</label>
+            <input type="text" id="infoLastName" name="lastName" required>
+          </div>
+
+          <div class="form-group">
+            <label for="infoEmail">Email Address *</label>
+            <input type="email" id="infoEmail" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="infoPhone">Phone Number</label>
+            <input type="tel" id="infoPhone" name="phone">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Information Request</legend>
+
+          <div class="form-group">
+            <label for="infoInterest">What information are you interested in? *</label>
+            <select id="infoInterest" name="interest" required>
+              <option value="">-- Select a Topic --</option>
+              <option value="home-nursing">Home Nursing Services</option>
+              <option value="virtual-care">Virtual Care Services</option>
+              <option value="wellness-programs">Wellness Programs</option>
+              <option value="career">Career Opportunities</option>
+              <option value="corporate">Corporate/Organizational Services</option>
+              <option value="general">General Information</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="infoMessage">Additional Questions or Comments</label>
+            <textarea id="infoMessage" name="message" rows="4" placeholder="Tell us more about what you'd like to know..."></textarea>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <label for="newsletter">
+              <input type="checkbox" id="newsletter" name="newsletter">
+              Add me to your mailing list for health tips and updates
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit" class="cta-btn">Send Request</button>
+          <button type="reset" class="btn-secondary">Clear Form</button>
+        </div>
+      </form>
+    </section>
+
+    
+<section class="location-section" id="location">
+    <h2><span class="section-accent">Our</span> Locations</h2>
+    <p>Visit one of our care centers for in-person consultations and services. We're conveniently located to serve our communities.</p>
+    
+    <div class="table-wrapper">
+       
+<table class="services-table locations-table">
+    <thead>
+        <tr>
+            <th>Location</th>
+            <th>Address</th>
+            <th>Phone</th>
+            <th>Hours</th>
+            <th>Services</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="location-name" data-label="Location">Main Care Center</td>
+            <td data-label="Address">123 Healthcare Avenue<br>City, State 12345</td>
+            <td data-label="Phone"><a href="tel:5551234567">(555) 123-4567</a></td>
+            <td data-label="Hours">
+                Mon - Fri: 8:00 AM - 6:00 PM<br>
+                Sat: 9:00 AM - 2:00 PM<br>
+                Sun: Closed
+            </td>
+            <td data-label="Services">All services available</td>
+        </tr>
+        <tr>
+            <td class="location-name" data-label="Location">Community Health Office</td>
+            <td data-label="Address">456 Wellness Street<br>City, State 12345</td>
+            <td data-label="Phone"><a href="tel:5552345678">(555) 234-5678</a></td>
+            <td data-label="Hours">
+                Mon - Fri: 9:00 AM - 5:00 PM<br>
+                Sat: Closed<br>
+                Sun: Closed
+            </td>
+            <td data-label="Services">Consultations, wellness programs</td>
+        </tr>
+        <tr>
+            <td class="location-name" data-label="Location">Extended Care Clinic</td>
+            <td data-label="Address">789 Medical Lane<br>City, State 12345</td>
+            <td data-label="Phone"><a href="tel:5553456789">(555) 345-6789</a></td>
+            <td data-label="Hours">
+                Mon - Sat: 8:00 AM - 8:00 PM<br>
+                Sun: 10:00 AM - 4:00 PM
+            </td>
+            <td data-label="Services">Specialized nursing care, appointments</td>
+        </tr>
+    </tbody>
+</table>
+    </div>
+</section>
+
+<section class="location-section" id="directions">
+    <h2>Visit Our Main Care Center</h2>
+    <p>Find us easily with our interactive map and detailed directions.</p>
+
+    <div class="location-map-container">
+        
+        <div class="service-card map-card">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.0267127343905!2d-75.69166!3d45.41673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04fd0ee3f72d%3A0x5b5b5b5b5b5b5b5b!2s123%20Healthcare%20Ave%2C%20Ottawa%2C%20ON!5e0!3m2!1sen!2sca!4v1234567890"
+                class="location-iframe"
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <div class="service-card directions-card">
+            <h3 class="directions-title">📍 Get Directions</h3>
+            
+            <div class="location-info">
+                <h4>Main Care Center</h4>
+                <p class="address">
+                    <strong>123 Healthcare Avenue</strong><br>
+                    Ottawa, Ontario 12345<br>
+                    Canada
+                </p>
+            </div>
+
+            <div class="hours-box">
+                <h4>⏰ Hours of Operation</h4>
+                <ul class="hours-list">
+                    <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
+                    <li>Saturday: 9:00 AM - 2:00 PM</li>
+                    <li>Sunday: Closed</li>
+                </ul>
+            </div>
+
+            <div class="contact-box">
+                <h4>📞 Contact</h4>
+                <ul class="contact-list">
+                    <li>
+                        <a href="tel:+15551234567" class="contact-link">
+                            📱 (555) 123-4567
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@careconnect.health" class="contact-link">
+                            ✉️ info@careconnect.health
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="https://www.google.com/maps/search/123+Healthcare+Avenue,+Ottawa,+Ontario" target="_blank" rel="noopener noreferrer" class="cta-btn directions-btn">
+                Get Directions →
+            </a>
+        </div>
+    </div>
+
+    <div class="locations-grid-section">
+        <h3>Other Locations</h3>
+        <div class="locations-grid">
+            
+            <div class="location-card">
+                <h4>Community Health Office</h4>
+                <p class="location-address">
+                    456 Wellness Street<br>
+                    Ottawa, Ontario
+                </p>
+                <a href="tel:+15552345678" class="contact-link">
+                     (555) 234-5678
+                </a>
+            </div>
+
+            <div class="location-card">
+                <h4>Extended Care Clinic</h4>
+                <p class="location-address">
+                    789 Medical Lane<br>
+                    Ottawa, Ontario
+                </p>
+                <a href="tel:+15553456789" class="contact-link">
+                     (555) 345-6789
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="faq-contact">
+      <h2>Common Questions</h2>
+      <div class="faq-compact">
+        <div class="faq-item-compact">
+          <h4>How long does it take to confirm an appointment?</h4>
+          <p>We typically confirm appointments within 24 hours of your booking request. For urgent healthcare needs, please call our emergency line.</p>
+        </div>
+
+        <div class="faq-item-compact">
+          <h4>Can I reschedule or cancel an appointment?</h4>
+          <p>Yes. Please contact us at least 24 hours before your scheduled appointment if you need to reschedule or cancel.</p>
+        </div>
+
+        <div class="faq-item-compact">
+          <h4>Is my personal information secure?</h4>
+          <p>Yes. All information submitted through our forms is encrypted and protected by healthcare privacy regulations including HIPAA compliance.</p>
+        </div>
+
+        <div class="faq-item-compact">
+          <h4>What if I don't see my service area listed?</h4>
+          <p>Contact us directly. We may be expanding our services to new areas or can provide virtual consultations outside our service regions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <h2>Ready to Connect With Care Connect?</h2>
+      <p>We look forward to helping you achieve your health goals. Whether you prefer to call, email, chat, or book online, we're here to support you.</p>
+      <a href="#appointmentForm" class="cta-btn">Book Now</a>
+      <a href="#informationForm" class="cta-btn">Request Information</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Care Connect Health | Care Without Borders</p>
+  </footer>
+  <nav class="bottom-nav">
+    <ul>
+      <li><a href="index.html" class="nav-item">Home</a></li>
+      <li><a href="about.html" class="nav-item">About Us</a></li>
+      <li><a href="services.html" class="nav-item">Services</a></li>
+      <li><a href="resources.html" class="nav-item">Resources</a></li>
+      <li><a href="contact.html" class="nav-item">Contact &amp; Booking</a></li>
+    </ul>
+  </nav>
+
+  <script>
+    // Show/hide conditional form fields
+    const providerPreferenceCheckbox = document.getElementById('provider-preference');
+    const providerPreferenceField = document.getElementById('providerPreferenceField');
+    
+    if (providerPreferenceCheckbox) {
+      providerPreferenceCheckbox.addEventListener('change', function() {
+        providerPreferenceField.style.display = this.checked ? 'block' : 'none';
+      });
+    }
+
+    const accessibilityCheckbox = document.getElementById('accessibility-needs');
+    const accessibilityField = document.getElementById('accessibilityField');
+    
+    if (accessibilityCheckbox) {
+      accessibilityCheckbox.addEventListener('change', function() {
+        accessibilityField.style.display = this.checked ? 'block' : 'none';
+      });
+    }
+
+    // Form submission handling
+    document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your booking request! We will confirm your appointment within 24 hours.');
+      this.reset();
+    });
+
+    document.getElementById('informationForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your information request! We will send details to your email shortly.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
