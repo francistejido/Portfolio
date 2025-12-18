@@ -1,4 +1,4 @@
-#[Care Connect Health](https://francistejido.github.io/Website/)
+[Care Connect Health](https://francistejido.github.io/Website/)
 
 Care Connect Health was founded with a powerful vision: to bridge the healthcare divide and create pathways to better health for all. Recognizing the often fragmented and unequal access to essential nursing and wellness services, Care Connect was created to unite compassionate professionals and innovative care solutions delivering support, dignity, and expert help to people in every community.
 
