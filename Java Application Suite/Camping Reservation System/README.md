@@ -1,4 +1,4 @@
- ## Camping Reservation System command-line application.
+ ## Camping Reservation System
 
  This program lets users interact with a fictional National Park booking
  system using simple text commands:
@@ -10,3 +10,4 @@
    
  The program validates user input, enforces campground rules (capacity limits, maximum stay, and date rules), checks for overbooking       against existing reservations, and writes confirmed reservations to a file for later viewing.
  It also uses custom exceptions to report clear error messages when input or business rules are violated.
+
