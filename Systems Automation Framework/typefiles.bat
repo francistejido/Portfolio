@@ -1,0 +1,1 @@
+type a\F25_F10_franciscotejido_folder_a.txt a\b\F25_F10_franciscotejido_folder_b.txt a\c\F25_F10_franciscotejido_folder_c.txt a\b\d\F25_F10_franciscotejido_folder_d.txt a\b\e\F25_F10_franciscotejido_folder_e.txt a\c\f\F25_F10_franciscotejido_folder_f.txt a\c\g\F25_F10_franciscotejido_folder_g.txt 
