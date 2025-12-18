@@ -1,0 +1,5 @@
+1,S'more Shores,32.00,14
+2,Pinecone Point,30.00,12
+3,Cocoa Cove,34.50,14
+4,Aurora Acres,40.00,7
+5,Moonlit Maples,29.00,10

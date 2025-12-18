@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.qc.cegepheritage.g10a3.ReservationServiceTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2025-11-30T04:04:32.931Z" hostname="KIKO" time="0.16">
+  <properties/>
+  <testcase name="testValidateDateRangeIsSameDate()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.06"/>
+  <testcase name="testCalculateNights()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.005"/>
+  <testcase name="testParseDateIsNull()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.004"/>
+  <testcase name="testValidatePartySizeIsExceedsCapacity()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.008"/>
+  <testcase name="testParseDateIsInvalidFormat()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.006"/>
+  <testcase name="testValidatePartySizeIsNegative()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.003"/>
+  <testcase name="testValidateAndCreateRequestExceedsMaxStay()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.006"/>
+  <testcase name="testValidateDateRangeIsStartAfterEnd()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.001"/>
+  <testcase name="testCalculateTotalPrice()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.003"/>
+  <testcase name="testCalculateNightsIsEqualToOneNight()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.002"/>
+  <testcase name="testValidateAndCreateRequestIsValid()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.009"/>
+  <testcase name="testValidateDateRangeIsValid()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.002"/>
+  <testcase name="testValidatePartySizeIsValid()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.002"/>
+  <testcase name="testCalculateTotalPriceOfOneNight()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.001"/>
+  <testcase name="testParseDateIsEmpty()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.003"/>
+  <testcase name="testParseDateIsValid()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.001"/>
+  <testcase name="testValidateDateRangeIsPastDate()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.003"/>
+  <testcase name="testValidatePartySizeIsZero()" classname="ca.qc.cegepheritage.g10a3.ReservationServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
