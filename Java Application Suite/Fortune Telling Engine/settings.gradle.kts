@@ -1,0 +1,1 @@
+rootProject.name = "G10-F25-A1"
